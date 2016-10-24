@@ -1,3 +1,33 @@
 .devicon-ruby-plain {
-  
+  display: block;
+  width: 100%;
+}
+
+
+img.bio-pic {
+    width: 30%;
+    margin: 20px auto;
+    border: 1px solid;
+}
+
+
+.inner {
+  margin-top: -50px;
+
+}
+
+.inner.gallery {
+    font-size: 100px;
+}
+
+.box.style2 .inner .row:before {
+  border: none;
+}
+
+.box.style2 .inner {
+  padding-top: 80px
+}
+
+.contact-container {
+  padding-top: 20px;
 }

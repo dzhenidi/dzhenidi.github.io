@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -36,6 +37,7 @@
 				<header>
 					<h1>Dzheni Dilcheva</h1>
 					<p>Web Developer</p>
+
 				</header>
 				<footer>
 					<a href="#banner" class="button style2 scrolly-middle">About</a>
@@ -50,6 +52,11 @@
 				<header>
 					<h2>About me</h2>
 				</header>
+				<div class="bio-pic-container">
+					<a href="#" class="image bio fit">
+						<img src="images/portfolio/Dzheni_Dilcheva.jpeg" alt="" class="bio-pic"/>
+					</a>
+				</div>
 				<p>I am a software developer experienced in Ruby on Rails,
 					React, Redux, CSS and HTML. I have a background in education
 					and international nonprofits and am passionate about technology
@@ -62,12 +69,11 @@
 		<!-- Feature 1 -->
 			<article id="first" class="container box style1 right">
 				<a href="#" class="image fit">
-					<img src="images/portfolio/projects_index_page.png" alt="" class="porfolio-pic"/>
+					<img src="images/portfolio/projects_index_page2.png" alt="" class="image fit"/>
 				</a>
 				<div class="inner">
 					<header>
-						<h2>TaskChamp:<br />
-						A project management app</h2>
+						<h2>TaskChamp</h2>
 					</header>
 					<p>TaskChamp is a RESTful, single-page app built on Ruby on Rails with Redux architecture and a JSON API.
 					 The app manages back-end authentication with BCRypt and ensures account privacy with Rails controller checks.
@@ -78,15 +84,14 @@
 
 		<!-- Feature 2 -->
 			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/portfolio/easy_data_screenshot3.png" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Easy Data:<br />
-						A lightweight ORM in Ruby that reproduces the core functionality of ActiveRecord</h2>
+						<h2>Easy Data</h2>
 					</header>
-					<p>Easy Data uses Ruby metaprogramming techniques to define getter and setter methods for convenient manipulation of table data.
-					It allows for single and multi-step associations between models in order to streamline common operations involving relationships between tables. </p>
-					When declaring associations, you have the option of using the default parameters for table and column names which I set up using ActiveSupport. Easy Data optimizes
+					<p>EasyData is a lightweight framework that facilitates SQL data manipulation through object relational mapping. It is inspired by Rails' ActiveRecord, and, similarly to ActiveRecord::Base, converts database tables into instances of the SQLObject class. It uses Ruby metaprogramming techniques to define getter and setter methods for convenient manipulation of table data.
+					It also allows for single and multi-step associations between models in order to streamline common operations involving relationships between tables. </p>
+					The associations methods are equipped with default parameters for table and column names which I set up using ActiveSupport. Easy Data optimizes
 					database queries by preventign repeat queries.
 				</div>
 
@@ -134,9 +139,12 @@
 			<article class="container box style3" id="contact">
 				<header>
 					<h2>Contact Me</h2>
-					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
+					<ul class="contact-container">
+						<li>E-mail: dzhenidi@buffalo.edu</li>
+						<li>GitHub: github.com/dzhenidi</li>
+					</ul>
 				</header>
-				<form method="post" action="#">
+				<!-- <form method="post" action="#">
 					<div class="row 50%">
 						<div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Name" /></div>
 						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
@@ -149,7 +157,7 @@
 							</ul>
 						</div>
 					</div>
-				</form>
+				</form> -->
 			</article>
 
 		<!-- Generic -->
@@ -311,16 +319,14 @@
 
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://angel.co/dzheni-dilcheva" class="icon fa-angellist"><span class="label">AngelList</span></a></li>
+				<li><a href="https://www.linkedin.com/in/dzheni-dilcheva" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/dzhenidi" class="icon fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="mailto:dzhenidi@buffalo.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Dzheni Dilcheva. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
