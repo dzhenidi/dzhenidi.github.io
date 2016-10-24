@@ -31,3 +31,31 @@ img.bio-pic {
 .contact-container {
   padding-top: 20px;
 }
+
+.inner h2 {
+  display: inline;
+}
+
+.inner header > a {
+  display: inline;
+  float: right;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+a.button.style2.scrolly-middle {
+  margin: 0 10px;
+}
+
+a.button.style2.scrolly-middle:last-child {
+  margin: 0 0 0 10px;
+}
+
+a.button.style2.scrolly-middle:last-child {
+  margin-right: -18px;
+}
